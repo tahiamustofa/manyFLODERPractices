@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add product</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section class="p-10 mx-auto mt-20 flex gap-5 justify-center items-center text-black">
+        <input id="pName" type="text" placeholder="product" class="border border-pink-400 placeholder:text-black p-2">
+   
+        <input id="pQuantity" type="text" placeholder="product Quantity" class="border border-pink-400 placeholder:text-black p-2">
+    
+        <button class=" btn border border-pink-400 text-black bg-pink-300 p-2" onclick="addProduct()">Add product</button>
+
+        <div>
+
+
+        </div>
+    </section>
+
+    <ul id="ulInput" class="mx-auto p-10">
+
+    </ul>
+    
+    <script src="js/card.js"></script>
+</body>
+</html>
